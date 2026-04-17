@@ -21,7 +21,3 @@ El objetivo era realizar un chatbot que reciba hasta 5 PDFs y te pueda dar respu
 - Tambien la forma en que probé el modelo fue con articulos cientificos, donde suelen haber muchas formulas y/o graficos, esto es casi incomprensible para el modelo, debido a que la lectura (PyPDFLoader) no reconoce formulas e imagenes, tengo entendido que si existen herramientas para esto.
 - El tiempo de ejecucion de las respuesta es lenta, tanto para generar respuesta y para generar el retriver, esto debido a que tiene que buscar en la base de datos, es posible mejorar esto utilizando la GPU o programando en paralelo con la CPU, tambien seria buena idea utillizar mejor el caché.
 
-## Agradecimientos:
-Muchas gracias por la oportunidad, me lleve un aprendizaje muy enriquesedor, no habia tenido experiencia usando docker y conectando modelos con streamlit, sinceramente me gustó aprender esto. Muchas gracias, me hubiera encantado seguir y usar todos los dias que me dieron para realizar esto, pero tengo que regresar el computador que utilicé para hacer el proyecto.
-
-Atte: Rodolfo Godoy Arteaga
