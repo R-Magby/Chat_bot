@@ -1,4 +1,4 @@
-# Postulacion-Cathai
+# Chat Bot
 ## Como ejecutar el codigo:
 Se debe ejecutar DockerDesktop y desde ubuntu ejecutar desde la carpeta que contenga el proyecto para crear los contenedores : `sudo docker-compose build` y luego `sudo docker-compose up -d`, finalmente para ejecutar el proyecto se usa: ` sudo docker exec -it chatbot streamlit run frontend/front.py --server.port=8501 --server.address=0.0.0.0`.
 Ya con esto hay que ingresar a la dirreccion: `http://localhost:8501/`
